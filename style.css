@@ -1,0 +1,64 @@
+
+body{
+	color: rgba(246, 246, 246, 1);
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 16px; 
+	line-height: 1.4;
+	margin: 0; 
+	padding: 0; 
+	font-weight: 400;
+	background: rgba(241,231,103,1);
+background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(249,201,82,1) 60%, rgba(254,182,69,1) 98%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(60%, rgba(249,201,82,1)), color-stop(98%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(249,201,82,1) 60%, rgba(254,182,69,1) 98%);
+background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(249,201,82,1) 60%, rgba(254,182,69,1) 98%);
+background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(249,201,82,1) 60%, rgba(254,182,69,1) 98%);
+background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(249,201,82,1) 60%, rgba(254,182,69,1) 98%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+	*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+	margin: 0;
+	font-weight: normal;
+}
+
+p.small-txt{
+	font-size: 12px;
+}
+
+a, a:visited, a:active{
+	text-decoration: none;
+	color: rgba(246, 246, 246, .5);
+}
+
+a:hover{
+	color: rgba(246, 246, 246, 1);
+}
+
+code{
+	background-color: rgba(0,0,0,.1);
+	font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+
+body{
+	color: rgba(246, 246, 246, 1);
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 16px; 
+	line-height: 1.4;
+	margin: 0; 
+	padding: 0; 
+	font-weight: 400;
+background: rgba(241,231,103,1);
+background: -moz-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(255,241,110,1) 13%, rgba(255,241,110,1) 21%, rgba(250,164,35,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(13%, rgba(255,241,110,1)), color-stop(21%, rgba(255,241,110,1)), color-stop(100%, rgba(250,164,35,1)));
+background: -webkit-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(255,241,110,1) 13%, rgba(255,241,110,1) 21%, rgba(250,164,35,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(255,241,110,1) 13%, rgba(255,241,110,1) 21%, rgba(250,164,35,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(255,241,110,1) 13%, rgba(255,241,110,1) 21%, rgba(250,164,35,1) 100%);
+background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(255,241,110,1) 13%, rgba(255,241,110,1) 21%, rgba(250,164,35,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#faa423', GradientType=1 );
+}
+
+	*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+	margin: 0;
+	font-weight: normal;
+}
+
+p.small-txt{
+	font-size: 12px;
+}
+
+a, a:visited, a:active{
+	text-decoration: none;
+	color: rgba(246, 246, 246, .5);
+}
+
+a:hover{
+	color: rgba(246, 246, 246, 1);
+}
+
+code{
+	background-color: rgba(0,0,0,.1);
+	font-family: monospace;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+   
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   
+    background-color: transparent;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+
+
+
+
